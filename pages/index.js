@@ -1,4 +1,7 @@
+import React from 'react';
 import styled from 'styled-components';
+import Head from 'next/head';
+
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import QuizLogo from '../src/components/QuizLogo';
@@ -25,29 +28,35 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
-    return (
-        <QuizBackground backgroundImage={db.bg}>
-            <QuizContainer>
-                <QuizLogo />
-                <Widget>
-                    <Widget.Header>
-                        <h1>{db.title}</h1>
-                    </Widget.Header>
-                    <Widget.Content>
-                        <p>{db.description}</p>
-                    </Widget.Content>
-                </Widget>
+  return (
+    <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>Next Quiz</title>
 
-                <Widget>
-                    <Widget.Content>
-                        <h1>Quizes da Galera</h1>
+      </Head>
+      <QuizContainer>
+        <QuizLogo />
+        <Widget>
+          <Widget.Header>
+            <h1>{db.title}</h1>
+          </Widget.Header>
+          <Widget.Content>
+            <form onSubmit="">
+              <input placeholder="Diz aí seu nome" />
+            </form>
+          </Widget.Content>
+        </Widget>
 
-                        <p>lorem ipsum dolor sit amet...</p>
-                    </Widget.Content>
-                </Widget>
-                <Footer />
-            </QuizContainer>
-            <GitHubCorner projectUrl="https://github.com/EnzoAlexsander" />
-        </QuizBackground>
-    );
+        <Widget>
+          <Widget.Content>
+            <h1>Quizes da Galera</h1>
+
+            <p>lorem ipsum dolor sit amet...</p>
+          </Widget.Content>
+        </Widget>
+        <Footer />
+      </QuizContainer>
+      <GitHubCorner projectUrl="https://github.com/EnzoAlexsander" />
+    </QuizBackground>
+  );
 }
