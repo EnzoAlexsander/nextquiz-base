@@ -43,9 +43,10 @@ export default function Home() {
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>{db.title}</h1>
+            <span>UEFA CHAMPIONS LEAGUE</span>
           </Widget.Header>
           <Widget.Content>
+            <h1>Teste seus conhecimentos sobre a maior liga de futebol do mundo</h1>
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
