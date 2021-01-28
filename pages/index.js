@@ -20,7 +20,7 @@ import Button from '../src/components/Button';
 //   background-position: center;
 // `;
 
-export const QuizContainer = styled.div`
+const QuizContainer = styled.div`
     width: 100%;
     max-width: 350px;
     padding-top: 45px;
@@ -34,6 +34,7 @@ export const QuizContainer = styled.div`
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
+  // eslint-disable-next-line no-console
   console.log('retorno do useState', name, setName);
 
   return (
@@ -50,9 +51,10 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <h1>Teste seus conhecimentos sobre a maior liga de futebol do mundo</h1>
-            <form onSubmit={function (infosDoEvento) {
+            <form onSubmit={(infosDoEvento) => {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
+              // eslint-disable-next-line no-console
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
