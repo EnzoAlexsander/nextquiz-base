@@ -17,8 +17,7 @@ const InputBase = styled.input`
   line-height: 24px;
 `;
 
-// eslint-disable-next-line import/prefer-default-export
-export function Input({ onChange, placeholder, ...props }) {
+export default function Input({ onChange, placeholder, ...props }) {
   return (
     <div>
       <InputBase
@@ -43,5 +42,3 @@ Input.propTypes = {
   // eslint-disable-next-line react/require-default-props
   value: PropTypes.string.isRequired,
 };
-
-export default Input;
