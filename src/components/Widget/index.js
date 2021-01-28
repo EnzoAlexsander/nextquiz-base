@@ -31,18 +31,6 @@ const Widget = styled.div`
         flex: 1;
         flex-direction: column;
         margin: 32px 0;
-        input {
-          margin-bottom: 25px;
-          height: 38px;
-          border-radius: ${({ theme }) => theme.borderRadius};
-          background-image: linear-gradient(rgba(255, 255, 255, 1),rgb(f, f, f));
-          border: 1px solid #000080;
-          outline: none;
-          padding: 0 16px;
-          color: #000080;
-          font-size: 14px;
-          font-weight: bold;
-          line-height: 24px;
     }
     button {
         color: #fff;
