@@ -15,6 +15,9 @@ const Widget = styled.div`
         line-height: 1;
         margin-bottom: 0;
     }
+    h3 {
+        color: #3A5FCD;
+    }
     p {
         font-size: 14px;
         font-weight: 400;
