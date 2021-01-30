@@ -15,6 +15,10 @@ const InputBase = styled.input`
   font-size: 14px;
   font-weight: bold;
   line-height: 24px;
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: ${({ theme }) => theme.colors.contrastText}DD;
+    opacity: 1; /* Firefox */
+  }
 `;
 
 export default function Input({ onChange, placeholder, ...props }) {
