@@ -44,7 +44,20 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <Head>
         <title>Next Quiz</title>
-        <meta property="og:image" content="https://nextquiz-base.enzoalexsander.vercel.app/"></meta>
+        <meta property="og:image" content=""></meta>
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://nextquiz-base.enzoalexsander.vercel.app/" />
+        <meta property="og:title" content="Quiz Champions League" />
+        <meta property="og:description" content="Teste seus conhecimentos sobre a maior liga de futebol do mundo" />
+        <meta property="og:image" content="https://nextquiz-base.enzoalexsander.vercel.app/" />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://nextquiz-base.enzoalexsander.vercel.app/" />
+        <meta property="twitter:title" content="Quiz Champions League" />
+        <meta property="twitter:description" content="Teste seus conhecimentos sobre a maior liga de futebol do mundo" />
+        <meta property="twitter:image" content="https://nextquiz-base.enzoalexsander.vercel.app/" />
 
       </Head>
       <QuizContainer>
