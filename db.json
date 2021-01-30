@@ -1,33 +1,133 @@
 {
     "bg": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/experience_nissan/partnerships/ucl-cover.jpg.ximg.l_full_m.smart.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "",
+    "description": "",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://statik.tempo.co/data/2013/04/25/id_179797/179797_620.jpg",
+        "title": "Temporada 2012/13",
+        "description": "Borussia Dortmund x Real Madrid se enfrentaram e o time alemão venceu o jogo da volta por 4x1 com 4 gols de Lewandowski. Qual foi o placar do primeiro jogo?",
+        "answer": 0,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Real Madrid 2x0 Borussia",
+          "Real Madrid 2x1 Borussia",
+          "Real Madrid 2x2 Borussia",
+          "Real Madrid 1x0 Borussia"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://i.pinimg.com/originals/cc/8b/b1/cc8bb1bb26043069212a68e608993a97.gif",
+        "title": "Temporada 2018/19",
+        "description": "Lucas Moura fez história ao classificar o Tottenham para a final com um hat-trick em cima do Ajax. Qual foi o placar do confronto no agregado?",
+        "answer": 1,
+        "alternatives": [
+           "Ajax 2x3 Tottenham",
+           "Ajax 3x3 Tottenham",
+           "Ajax 3x4 Tottenham",
+           "Ajax 4x4 Tottenham"
+        ]
+      },
+      {
+        "image": "https://media.balls.ie/uploads/2014/04/igb.gif",
+        "title": "Temporada 2013/14",
+        "description": "Atletico de Madrid eliminou o Barcelona nas quartas de final com direito a um golaço de um brasileiro no Camp Nou. Quem foi o autor do gol?",
+        "answer": 3,
+        "alternatives": [
+           "Miranda",
+           "Filipe Luis",
+           "Diego Costa",
+           "Diego Ribas"
+        ]
+      },
+      {
+        "image": "https://as01.epimg.net/futbol/imagenes/2020/02/29/internacional/1582963066_428195_1583006379_noticia_normal_recorte1.jpg",
+        "title": "Temporada 2019/20",
+        "description": "O então favorito Liverpool caiu logo nas oitavas de final perdendo os jogos de ida e volta. Quem saiu vitorioso do confronto?",
+        "answer": 2,
+        "alternatives": [
+           "Atalanta",
+           "Napoli",
+           "Atletico de Madrid",
+           "RB Leipzig"
+        ]
+      },
+      {
+        "image": "https://thumbs.gfycat.com/BetterBigDodobird-size_restricted.gif",
+        "title": "Temporada 2017/18",
+        "description": "Roma x Liverpool fizeram uma semifinal de muitos gols. Qual foi o placar agregado que garantiu a classificação do Liverpool?",
+        "answer": 3,
+        "alternatives": [
+           "Liverpool 5x4 Roma",
+           "Liverpool 5x5 Roma",
+           "Liverpool 6x5 Roma",
+           "Liverpool 7x6 Roma"
+        ]
+      },
+      {
+        "image": "https://www.masquecena.com/wp-content/uploads/2012/04/fernando-torres-golo-barcelona.gif",
+        "title": "Temporada 2011/12",
+        "description": "Depois de vencer o Barcelona na partida de ida por 1x0, o Chelsea garantiu o empate em 2x2 e a vaga na final com um golaço de um brasileiro no Camp Nou. Quem foi o autor do gol?",
+        "answer": 2,
+        "alternatives": [
+           "David Luiz",
+           "Oscar",
+           "Ramires",
+           "Willian"
+        ]
+      },
+      {
+        "image": "https://sportbuzz.uol.com.br/media/_versions/captura_de_tela_2020-08-23_as_18.27.02_widelg.png",
+        "title": "Temporada 19/20",
+        "description": "Na final entre Bayern x PSG, Neymar estava off. Quem estava on e fez o gol do título do Bayern de Munique?",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Kingsley Coman",
+           "Robert Lewandowski",
+           "Serge Gnabry",
+           "Thomas Muller"
+        ]
+      },
+      {
+        "image": "https://i.makeagif.com/media/9-14-2015/Ba7jzV.gif",
+        "title": "Temporada 2014/15",
+        "description": "O Barcelona eliminou o Bayern de Munique no Camp Nou por 3x0 com um show de Messi. De quem foram os gols da partida?",
+        "answer": 3,
+        "alternatives": [
+           "3 gols do Messi",
+           "2 gols do Messi e 1 do Suarez",
+           "1 gol do Messi, 1 do Neymar e 1 do Suarez",
+           "2 gols do Messi e 1 do Neymar"
+        ]
+      },
+      {
+        "image": "https://img.fifa.com/image/upload/t_l4/gjh5ytwjwadakkuhkaen.jpg",
+        "title": "Temporada 2011/12",
+        "description": "Depois de um 2x1 na ida pro Bayern e um 2x1 na volta pro Real Madrid, a semifinal foi pros penaltis. Melhor pro time alemão que viu o Real Madrid perder 3 penaltis. Quem foram os autores dessas cobranças?",
+        "answer": 3,
+        "alternatives": [
+           "Higuain, Ozil e Kaka",
+           "Di Maria, Benzema e Cristiano Ronaldo",
+           "Sergio Ramos, Marcelo e Higuain",
+           "Cristiano Ronaldo, Kaka e Sergio Ramos"
+        ]
+      },
+      {
+        "image": "https://j.gifs.com/2RQyYz.gif",
+        "title": "Temporada 2016/17",
+        "description": "Depois de tomar 4x0 pro PSG na ida, Barcelona protagoniza uma das maiores viradas da história da champions. Quem fez os gols daquele 6x1?",
+        "answer": 1,
+        "alternatives": [
+           "Barcelona: Suarez(2), Neymar(2), Messi(1) e Thiago Silva contra. PSG: Cavani(1)",
+           "Barcelona: Neymar(2), Suarez(1), Messi(1), Sergi Roberto(1) e Kurzawa contra. PSG: Cavani(1)",
+           "Barcelona: Messi(2), Neymar(2), Sergi Roberto(1) e Kurzawa contra. PSG: Ibrahimovic(1)",
+           "Barcelona: Messi(2), Neymar(1), Suarez(1), Sergi Roberto(1) e Thiago Silva contra. PSG: Ibrahimovic(1)"
         ]
       }
+      
     ],
     "external": [
-      ""
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
