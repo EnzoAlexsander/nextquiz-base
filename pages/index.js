@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>Next Quiz</title>
+        <title>Quiz Champions League</title>
         <meta property="og:image" content=""></meta>
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
@@ -73,10 +73,9 @@ export default function Home() {
           animate="show"
         >
           <Widget.Header>
-            <span>UEFA CHAMPIONS LEAGUE</span>
+            <span>Teste seus conhecimentos sobre a maior liga de futebol do mundo</span>
           </Widget.Header>
           <Widget.Content>
-            <h1>Teste seus conhecimentos sobre a maior liga de futebol do mundo</h1>
             <form onSubmit={(infosDoEvento) => {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
@@ -91,7 +90,7 @@ export default function Home() {
                 value={name}
               />
               <Button type="submit" disabled={name.length === 0}>
-                {`Jogar ${name}`}
+                {`Desafio lançado ${name}!`}
               </Button>
             </form>
           </Widget.Content>
