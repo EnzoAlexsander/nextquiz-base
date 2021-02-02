@@ -1,5 +1,5 @@
 {
-    "bg": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_europe/experience_nissan/partnerships/ucl-cover.jpg.ximg.l_full_m.smart.jpg",
+    "bg": "https://i.pinimg.com/originals/9e/cd/c5/9ecdc5db91b0185628ef432ee7e34dfa.jpg",
     "title": "",
     "description": "",
     "questions": [
@@ -126,8 +126,10 @@
       
     ],
     "external": [
-      "https://aluraquiz-css.omariosouto.vercel.app/",
-      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+      "https://aluraquiz-copadomundo.antonionarcilio.vercel.app/",
+      "https://flow-quiz.igortargino.vercel.app/",
+      "https://breaking-bad-quiz.eliasnepo.vercel.app/",
+      "https://quiz-everybody-hates-chris.vercel.app/"
     ],
     "theme": {
       "colors": {
