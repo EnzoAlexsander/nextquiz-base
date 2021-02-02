@@ -36,7 +36,21 @@ export default function App({ Component, pageProps }) {
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet" />
+        <title>Quiz Champions League</title>
+        <meta property="og:image" content={db.bg} />
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nextquiz-base.enzoalexsander.vercel.app/" />
+        <meta property="og:title" content="Quiz Champions League" />
+        <meta property="og:description" content="Teste seus conhecimentos sobre a maior liga de futebol do mundo" />
+        <meta property="og:image" content="https://nextquiz-base.enzoalexsander.vercel.app/" />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://nextquiz-base.enzoalexsander.vercel.app/" />
+        <meta property="twitter:title" content="Quiz Champions League" />
+        <meta property="twitter:description" content="Teste seus conhecimentos sobre a maior liga de futebol do mundo" />
+        <meta property="twitter:image" content={db.bg} />
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
